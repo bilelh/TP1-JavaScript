@@ -7,6 +7,12 @@ var app = {
 };
 app.init();
 
+var h1 = document.getElementsByTagName('h1');
+console.log(h1);
 
+var textred = document.getElementsByClassName('text-red');
+console.log(textred);
 
+var idTitle = document.getElementById('title');
+console.log(idTitle);
 
